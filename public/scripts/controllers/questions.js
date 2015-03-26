@@ -283,8 +283,8 @@ angular.module('assessmentEvaluationApp')
         }
 
         $scope.update = function(user) {
-        sessionStorage.setItem("email", user.email);
-      };
+            sessionStorage.setItem("email", user.email);
+        };
 
         $scope.save = function(questionId) {
             console.log(questionId);
@@ -888,5 +888,3 @@ angular.module('assessmentEvaluationApp')
             $location.path('/ResultsPage');
         }
     });
-
-
