@@ -1,0 +1,436 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col-md-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body{
+  overflow: scroll;
+  background-image:url(../img/whatdirection.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+}
+
+body.hide-bg {
+  background-image:url(../img/evaluationbackground.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: gray;
+  background-position: center center;
+  overflow: scroll;
+}
+
+body.hide-bg.AA {
+  background-image:url(../img/aa_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.BAS {
+  background-image:url(../img/bas_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.CO {
+  background-image:url(../img/co_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.HVAC {
+  background-image:url(../img/hvac.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.MA {
+  background-image:url(../img/ma_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.MBC {
+  background-image:url(../img/mbc_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.MOS {
+  background-image:url(../img/mos_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.PT {
+  background-image:url(../img/pt_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.WE {
+  background-image:url(../img/we_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.hide-bg.CSS {
+  background-image:url(../img/css_hero.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 8px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+  color: rgb(84, 179, 200);
+}
+
+h3 {
+  padding-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+h3.tagline {
+  font-size: 17px;
+}
+
+h4 {
+  font-size: 20px;
+  padding-left: 8px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+p {
+  font-size: 10px;
+  text-align: center;
+}
+
+img {
+  border-radius: 29px;
+  margin-top: 1px;
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
+progress {
+  color: white;
+  font-size: .6em;
+  line-height: 1.5em;
+  text-indent: .5em;
+  width: 100%;
+  height: 1.8em;
+  border: 1px solid rgba(45, 94, 255, .8
+  );
+  background: white;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-bar { 
+  background: transparent; 
+}
+progress::-webkit-progress-value { background: rgba(45, 94, 255, .8
+  ); }
+
+.progressBar {
+  display: table-caption;
+}
+
+.position {
+  position: absolute;
+}
+
+.center {
+  text-align: center;
+}
+
+.sivDescription {
+  height: 23%;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  overflow: auto;
+}
+
+.sbDescription {
+  height: 23%;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  overflow: auto;
+}
+
+.outlookDescription {
+  height: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  overflow: auto;
+}
+
+.strengths {
+  float: left;
+  overflow: auto;
+  padding-top: 5px;
+  height: 23%;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.strengthsOutlook {
+  float: left;
+  padding-top: 5px;
+  height: 20%;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.outlook {
+  padding: 3px 7px 3px 3px;
+}
+
+.dheader {
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  padding: 4px 8px 4px 4px;
+  height: 35px;
+  margin-bottom: 0px;
+}
+
+.float-left {
+  float: left;
+  width: 100%;
+}
+
+.assessmentHeader {
+  padding-left: 10px;
+}
+
+.assessmentResultsBar {
+  color: white;
+  background: linear-gradient(0deg, rgba(1, 7, 15, 0.9), rgba(68, 31, 3, .7));
+  padding: 1px;
+  margin-top: 0px;
+  border-radius: 2px;
+}
+
+.badges {
+  background-color: rgba(255, 255, 255, .6);
+  height: 550px;
+  padding: 0px;
+}
+
+.summary {
+  background-color: rgba(255, 255, 255, .95);
+  height: 550px;
+  padding-left: 0px;
+}
+
+button.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25%;
+}
+
+div.logo {
+  height: 140px;
+   background-image:url(../img/sciLOGO.jpg);
+   background-repeat: no-repeat;
+   background-color: white;
+}
+
+div.bottomLogo {
+  height: 130px;
+  width:100%;
+  bottom:0px;
+  text-align:center;
+  z-index:9999;
+  background-position: center center;
+  background-image:url(../img/sciLOGO.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+  float: left;
+}
+
+
+div .question {
+  color: white;
+  padding: 3px;
+  background-color: rgba(40, 40, 40, .9);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 200px;
+  padding: 15px;
+  box-shadow: 1px 1px 5px #888888;
+  height: 220px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+input.name {
+  width: 270px;
+  border-radius: 2px;
+}
+
+input.answer {
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.assessmentName {
+  color: rgb(84, 179, 200);
+  font-weight: 700px;
+}
+
+.btn-sky {
+padding: 4px;
+margin: 4px;
+box-shadow: 1px 1px 5px #888888;
+color: #fff;
+background-color: #cd003a;
+border-bottom:2px solid #8f0028;
+}
+
+.btn-sky:hover,.btn-sky.active:focus, .btn-sky:focus, .open>.dropdown-toggle.btn-sky {
+color: #fff;
+background-color: #cd003a;
+border-bottom:2px solid #8f0028;
+outline: none;
+}
+
+.btn-sky:active, .btn-sky.active {
+color: #fff;
+background-color: #8f0028;
+border-top:2px solid #66001d;
+outline-offset: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

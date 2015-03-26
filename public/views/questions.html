@@ -1,0 +1,46 @@
+<div class="logo">
+	&nbsp;
+</div>
+<div style="display:table;" ng-controller="QuestionsCtrl" class="question">
+	<div ng-repeat="question in questions">
+		<div ng-if="question_index == $index">
+			<h3>{{question.question}}</h3>
+			<ul>
+				<li class="choices" ng-repeat="choice in question.choices">
+					<input style="margin-right: 10px" type="radio" name="answer" ng-model="choice.value" ng-value="true">{{choice.choice}}</input>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div style="display:table-cell;vertical-align:bottom;">
+		<button class="next btn btn-sky text-uppercase btn-sm" ng-click="next();" ng-show="showButton()">Next</button>
+		<button data-toggle="modal" data-target="#purchaseModal" class="next btn btn-sky text-uppercase btn-sm" ng-hide="showButton()" ng-click="countResults();">Show Results</button>
+		<!-- <h6 class="pull-right absolute">{{question_index + 1}} / 14</h6> -->
+	</div>
+	<div class="progressBar">
+		<progress value="{{(question_index)* 7.75}}" max="100"></progress>
+	</div>
+</div>
+
+
+
+
+<div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="purchaseLabel">Please Enter Your Email To Receive Your Results !</h4>
+			</div>
+			<div class="modal-body" ng-controller="MainCtrl">
+				<form name="myForm">
+					<input class="name" type="email" name="input" ng-model="user.email" placeholder="Enter Valid Email Address" required>
+					<div class="modal-footer">
+						<input ng-show="myForm.input.$valid" type="submit" value="See Results" ng-click="seeResults(); updateEmail(user)" class="btn btn-sky text-uppercase btn-lg" data-dismiss="modal">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,61 @@
+<div ng-controller="ResultsCtrl">
+	<div class="col-md-6">
+		<div class="assessmentResultsBar">
+			<h1>{{programName}}</h1>
+			<h3 class="tagline"> {{tagline}} !</h3>
+			<h4><span class="assessmentName">{{firstName}}'s</span> Assessment Results</h4>
+		</div>
+		<!-- <div class="assessmentResultsBar">
+		</div> -->
+		<div class="col-md-6 badges">
+			<!--     OUTLOOK SECTION  -->
+			<h3 class="outlook" style="margin-top: 0px;">Outlook</h3>
+			<div class="strengthsOutlook">
+				<div ng-repeat="image in outlookImages" class="col-xs-3 center">
+					<img src="{{image.url}}">
+					<p>{{image.label}}</p>
+				</div>
+			</div>
+			<div class="strengths">
+				<h3 class="float-left">Strengths, Goal & Values</h3>
+				<div ng-repeat="image in sivImages" class="col-xs-3 center">
+					<img src="{{image.url}}">
+					<p>{{image.label}}</p>
+				</div>
+			</div>
+			<!--  Strengths, Goal & Values  -->
+		<div class="strengths">
+			<h3>Skills Badges</h3>
+		<div ng-repeat="image in sbImages" class="col-xs-3 center">
+			<img src="{{image.url}}">
+			<p>{{image.label}}</p>
+		</div>
+		</div>
+			<!--   Certification   -->
+		<div class="strengths">
+			<h3 >Certifications</h3>
+		<div ng-repeat="image in certImages" class="col-xs-3 center">
+			<img class="center" src="{{image.url}}">
+			<p>{{image.label}}</p>
+		</div>
+	</div>
+	</div>
+	<div class="col-md-6 summary">
+		<h3 class="dheader" style="margin-top: 0px;"></h3>
+		<div class="outlookDescription">
+			<p>{{outlookDescription}}</p>
+		</div>
+		<div class="sivDescription">
+			<p>{{sivDescription}}</p>
+		</div>
+		<div class="sbDescription">
+			<p>{{sbDescription}}</p>
+		</div>
+		<div class="certDescription">
+			<p>{{certDescription}}</p>
+		</div>
+	</div>
+	<!-- <button ng-click="startOver();">Start Over</button> -->
+</div>
+</div>
+

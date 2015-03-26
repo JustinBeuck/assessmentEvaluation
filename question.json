@@ -1,0 +1,56 @@
+      {
+         "id": 1, 
+         "question":"Would you prefer to service...",
+         "choices":[{"choice": "Consumers or customers", "id": 1, "value": false}, {"choice": "Business clients", "id":2, "value": false}, {"choice": "Consumer and Business", "id":3, "value": false}] 
+       },
+       { 
+         "id": 2, 
+         "question":"Do you like your work to be more focused on...",
+         "choices":[{"choice": "Working with your hands", "id": 1, "value": false},{"choice": "Solving problems", "id": 2, "value": false},{"choice": "Having a standard routine", "id": 3, "value": false}] 
+       },
+       { 
+         "id": 3, 
+         "question":"Would you prefer to be recognized...",
+         "choices":[{"choice": "In public", "id": 1, "value": false},{"choice": "In private", "id": 2, "value": false}]
+       },
+       { 
+         "id": 4, 
+         "question":"Which of the following is most important to you...",
+         "choices":[{"choice": "Making Money", "id": 1, "value": false},{"choice": "Spend more time with family", "id": 2, "value": false},{"choice": "Be happier at work", "id": 3, "value": false}]
+       },
+       { 
+         "id": 5, 
+         "question":"What motivates you about work?",
+         "choices":[{"choice": "The idea of making money", "id": 1, "value": false},{"choice": "Work that allows you to help other people", "id": 2, "value": false},{"choice": "Work that allows you to manage yourself only", "id": 3, "value": false},{"choice": "Personal sense of satisfaction", "id": 4, "value": false}]
+        },
+       { 
+         "id": 6, 
+         "question":"Are you making the kind of money you want to make?",
+         "choices":[{"choice": "Yes", "id": 1, "value": false},{"choice": "No", "id": 2, "value": false}, {"choice": "Money doesn't matter", "id": 3, "value": false}]
+       },
+       { 
+         "id": 7, 
+         "question":"If given a choice, you like to work...",
+         "choices":[{"choice": "Alone", "id": 1, "value": false},{"choice": "As a part of a team", "id": 2, "value": false}]
+       },
+       { 
+         "id": 8, 
+         "question":"In group projects, you prefer to...",
+         "choices":[{"choice": "Be the leader with all the associated risks that come with a leadership role", "id": 1, "value": false},{"choice": "Be a team member with the risk spread among the team membership", "id": 2, "value": false}]
+       },
+       { 
+         "id": 9, 
+         "question":"Do you prefer...",
+         "choices":[{"choice": "Mastering a wide variety of work and tasks", "id": 1, "value": false},{"choice": "Mastering fewer tasks", "id": 2, "value": false},{choice: "Mastering one task and staying with that task for a long time", "id": 3, "value": false}]
+       },
+      {
+          "id": 10,
+          "question": "Do you like your work to be...",
+          "choices": [{
+              "choice": "As perfect as you can get it no matter how long it takes",
+              "id": 1, "value": false
+          }, {
+              "choice": "Be done right, but it does not have to be absolutely perfect",
+              "id": 2, "value": false
+          }]
+      }
