@@ -13,7 +13,6 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
 }
 
 body.hide-bg {
@@ -27,92 +26,82 @@ body.hide-bg {
 
 body.hide-bg.AA {
   background-image:url(../img/aa_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.BAS {
   background-image:url(../img/bas_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.CO {
   background-image:url(../img/co_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.HVAC {
   background-image:url(../img/hvac.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.MA {
   background-image:url(../img/ma_hero.jpg); 
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.MBC {
   background-image:url(../img/mbc_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.MOS {
   background-image:url(../img/mos_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.PT {
   background-image:url(../img/pt_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.WE {
   background-image:url(../img/we_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 body.hide-bg.CSS {
   background-image:url(../img/css_hero.jpg); 
-  background-size: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 0px 9px;
 }
 
 h1 {
@@ -263,7 +252,7 @@ button.center {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 25%;
+  margin-top: 28%;
 }
 
 div.logo {

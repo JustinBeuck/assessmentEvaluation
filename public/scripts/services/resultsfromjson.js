@@ -309,7 +309,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Teamwork", url: "./images/values/GROUP.png"},
                     {label: "Precision", url: "./images/values/PRECISION.png"
                 }],
-                description: "Your innate desire for accuracy of task completion, work in a group or team environment,  deal with customers or clients,  and your goal around where you’d like to work make you a perfect fit for the Administrative Assistant training program!"
+                description: "Your innate desire for accuracy of task completion, work in a group or team environment,  deal with customers or clients,  and your goal around where you’d like to work make you a perfect fit for the Medical Office Specialist training program!"
             },
 
             Skills_Badges: {
