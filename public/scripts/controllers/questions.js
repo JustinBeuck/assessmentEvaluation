@@ -27,18 +27,52 @@ angular.module('assessmentEvaluationApp')
 
         $scope.questions = [{
             id: 1,
-            question: "Would you prefer to service...",
+            question: "Which of the following careers most interests you?",
             choices: [{
-                choice: "Consumers or customers",
+                choice: "Administrative Assistant",
                 id: 1,
                 value: false
             }, {
-                choice: "Business clients",
+                choice: "Business Accounting Specialist",
                 id: 2,
                 value: false
-            }, {
-                choice: "Consumer and Business",
+            }, 
+            {
+                choice: "Computer Support Specialist",
                 id: 3,
+                value: false
+            },
+            {
+                choice: "Cosmetologist",
+                id: 4,
+                value: false
+            },
+            {
+                choice: "HVAC Technician",
+                id: 5,
+                value: false
+            },
+            {
+                choice: "Medical Assistant",
+                id: 6,
+                value: false
+            },
+            {
+                choice: "Medical Biller / Coder",
+                id: 7,
+                value: false
+            },{
+                choice: "Medical Office Specialist",
+                id: 8,
+                value: false
+            },
+            {
+                choice: "Pharmacy Technician",
+                id: 9,
+                value: false
+            },{
+                choice: "Welder",
+                id: 10,
                 value: false
             }]
         }, {
@@ -261,7 +295,23 @@ angular.module('assessmentEvaluationApp')
                 id: 4,
                 value: false
             }]
-        }];
+        },   {
+            id: 15,
+            question: "Would you prefer to service...",
+            choices: [{
+                choice: "Consumers or customers",
+                id: 1,
+                value: false
+            }, {
+                choice: "Business clients",
+                id: 2,
+                value: false
+            }, {
+                choice: "Consumer and Business",
+                id: 3,
+                value: false
+            }]
+        }]
 
         $scope.question_index = 0;
 
@@ -293,42 +343,134 @@ angular.module('assessmentEvaluationApp')
                     console.log("question 1");
                     console.log($scope.questions[questionId - 1].choices[0].value)
                     if ($scope.questions[questionId - 1].choices[0].value) {
-                        console.log("you selected the first answer");
-                        $scope.AA.push(8);
-                        $scope.BAS.push(5);
-                        $scope.CO.push(10);
-                        $scope.HVAC.push(10);
-                        $scope.MA.push(10);
-                        $scope.MBC.push(5);
-                        $scope.MOS.push(4);
-                        $scope.PT.push(8);
-                        $scope.WE.push(5);
-                        $scope.CSS.push(10);
+                        console.log("Administrative Assistant");
+                        $scope.AA.push(30);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[1].value) {
                         console.log($scope.questions[questionId - 1].choices[1].value);
-                        console.log("you selected the second answer");
-                        $scope.AA.push(8);
-                        $scope.BAS.push(10);
-                        $scope.CO.push(4);
-                        $scope.HVAC.push(7);
-                        $scope.MA.push(4);
-                        $scope.MBC.push(8);
-                        $scope.MOS.push(8);
-                        $scope.PT.push(5);
-                        $scope.WE.push(10);
-                        $scope.CSS.push(6);
+                        console.log("Business Accounting Specialist");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(30);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } 
+                      else if ($scope.questions[questionId - 1].choices[2].value) {
+                        console.log($scope.questions[questionId - 1].choices[2].value);
+                        console.log("Computer Support Specialist");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(30);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[3].value) {
+                        console.log($scope.questions[questionId - 1].choices[3].value);
+                        console.log("Cosmetologist");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(30);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[4].value) {
+                        console.log($scope.questions[questionId - 1].choices[4].value);
+                        console.log("HVAC Technician");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(30);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[5].value) {
+                        console.log($scope.questions[questionId - 1].choices[5].value);
+                        console.log("Medical Assistant");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(30);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[6].value) {
+                        console.log($scope.questions[questionId - 1].choices[6].value);
+                        console.log("Medical Biller / Coder");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(30);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[7].value) {
+                        console.log($scope.questions[questionId - 1].choices[7].value);
+                        console.log("Medical Office Specialist");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(30);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(0);
+                    } else if ($scope.questions[questionId - 1].choices[8].value) {
+                        console.log($scope.questions[questionId - 1].choices[8].value);
+                        console.log("Pharmacy Technician");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(30);
+                        $scope.CSS.push(0);
                     } else {
-                        console.log("you selected the third answer");
-                        $scope.AA.push(10);
-                        $scope.BAS.push(7);
-                        $scope.CO.push(7);
-                        $scope.HVAC.push(8);
-                        $scope.MA.push(7);
-                        $scope.MBC.push(8);
-                        $scope.MOS.push(10);
-                        $scope.PT.push(10);
-                        $scope.WE.push(8);
-                        $scope.CSS.push(8);
+                        console.log("Welder");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
+                        $scope.WE.push(0);
+                        $scope.CSS.push(30);
                     }
                     break;
                 case 2:
@@ -878,6 +1020,48 @@ angular.module('assessmentEvaluationApp')
                         $scope.PT.push(6);
                         $scope.WE.push(10);
                         $scope.CSS.push(9);
+                    }
+                    break;
+                    case 15:
+                    console.log("question 1");
+                    console.log($scope.questions[questionId - 1].choices[0].value)
+                    if ($scope.questions[questionId - 1].choices[0].value) {
+                        console.log("you selected the first answer");
+                        $scope.AA.push(8);
+                        $scope.BAS.push(5);
+                        $scope.CO.push(10);
+                        $scope.HVAC.push(10);
+                        $scope.MA.push(10);
+                        $scope.MBC.push(5);
+                        $scope.MOS.push(4);
+                        $scope.PT.push(8);
+                        $scope.WE.push(5);
+                        $scope.CSS.push(10);
+                    } else if ($scope.questions[questionId - 1].choices[1].value) {
+                        console.log($scope.questions[questionId - 1].choices[1].value);
+                        console.log("you selected the second answer");
+                        $scope.AA.push(8);
+                        $scope.BAS.push(10);
+                        $scope.CO.push(4);
+                        $scope.HVAC.push(7);
+                        $scope.MA.push(4);
+                        $scope.MBC.push(8);
+                        $scope.MOS.push(8);
+                        $scope.PT.push(5);
+                        $scope.WE.push(10);
+                        $scope.CSS.push(6);
+                    } else {
+                        console.log("you selected the third answer");
+                        $scope.AA.push(10);
+                        $scope.BAS.push(7);
+                        $scope.CO.push(7);
+                        $scope.HVAC.push(8);
+                        $scope.MA.push(7);
+                        $scope.MBC.push(8);
+                        $scope.MOS.push(10);
+                        $scope.PT.push(10);
+                        $scope.WE.push(8);
+                        $scope.CSS.push(8);
                     }
                     countResults();
                     break;
