@@ -41,10 +41,10 @@ angular.module('assessmentEvaluationApp')
 
             Certifications: {
                 images: [{
-                    label: "Microsoft Word", url: "./images/certifications/WORD.png"},
-                    {label: "Microsoft Excel", url: "./images/certifications/EXCEL.png"},
-                    {label: "Microsoft Powerpoint", url: "./images/certifications/POWERPOINT.png"},
-                    {label: "Microsoft Outlook", url: "./images/certifications/OUTLOOK.png"
+                    label: "Microsoft Word", url: "./images/certifications/word.png"},
+                    {label: "Microsoft Excel", url: "./images/certifications/excel.png"},
+                    {label: "Microsoft Powerpoint", url: "./images/certifications/powerpoint.png"},
+                    {label: "Microsoft Outlook", url: "./images/certifications/outlook.png"
                 }],
                 description: "The Administrative Assistant field does not require certifications, but our program makes you eligible for 4 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
 
@@ -71,14 +71,14 @@ angular.module('assessmentEvaluationApp')
             Skills_Badges: {
                 images: [{
                     label: "Accounting Principles", url: "./images/skills/accounting_principles.png"},
-                    {label: "Payables & Receivables", url: "./images/skills/PAYABLES&RECEIVABLES.png"},
+                    {label: "Payables & Receivables", url: "./images/skills/payables&receivables.png"},
                     {label: "Inventory", url: "./images/skills/INVENTORY.png"},
-                    {label: "Financial Analysis", url: "./images/skills/FINANCIAL_ANALYSIS.png"},
-                    {label: "Payroll", url: "./images/skills/PAYROLL.png"},
-                    {label: "Taxes", url: "./images/skills/TAXES.png"},
-                    {label: "QuickBooks", url: "./images/skills/QUICKBOOKS.png"},
+                    {label: "Financial Analysis", url: "./images/skills/financial_analysis.png"},
+                    {label: "Payroll", url: "./images/skills/payroll.png"},
+                    {label: "Taxes", url: "./images/skills/taxes.png"},
+                    {label: "QuickBooks", url: "./images/skills/quickbooks.png"},
                     {label: "communication", url: "./images/skills/communication.png"},
-                    {label: "Business Processes", url: "./images/skills/BUSINESS_PROCESS.png"},
+                    {label: "Business Processes", url: "./images/skills/business_process.png"},
                     {label: "Microsoft Word", url: "./images/skills/ms_word.png"},
                     {label: "Microsoft Excel", url: "./images/skills/ms_excel.png"},
                     {label: "MS PowerPoint", url: "./images/skills/ms_powerpoint.png"},
@@ -92,11 +92,11 @@ angular.module('assessmentEvaluationApp')
 
             Certifications: {
                 images: [{
-                    label: "Certified Professional Bookkeeper", url: "./images/certifications/CERTIFIED_PROFESSIONAL_BOOOKEEPER.png"},
-                    {label: "Microsoft Word", url: "./images/certifications/WORD.png"},
-                    {label: "Microsoft Outlook", url: "./images/certifications/OUTLOOK.png"},
-                    {label: "QuickBooks", url: "./images/certifications/INTUIT_QUICKBOOKS.png"},
-                    {label: "MS PowerPoint", url: "./images/certifications/POWERPOINT.png"
+                    label: "Certified Professional Bookkeeper", url: "./images/certifications/certified_professional_bookeeper.png"},
+                    {label: "Microsoft Word", url: "./images/certifications/word.png"},
+                    {label: "Microsoft Outlook", url: "./images/certifications/outlook.png"},
+                    {label: "QuickBooks", url: "./images/certifications/intuit_quickbooks.png"},
+                    {label: "MS PowerPoint", url: "./images/certifications/powerpoint.png"
                 }],
                 description: "The Accounting Specialist field does not require certifications, but our program makes you eligible 6 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
@@ -107,42 +107,42 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "Growth", url: "./images/outlook/GROWTH.png"
+                    label: "Growth", url: "./images/outlook/growth.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Color", url: "./images/skills/COLOR.png"},
-                    {label: "Cut", url: "./images/skills/COLOR.png"},
-                    {label: "Facial", url: "./images/skills/FACIAL.png"},
-                    {label: "Build Your Business", url: "./images/skills/NAB_BUSINESS.png"},
-                    {label: "Embracing Change", url: "./images/skills/NAB_CHANGE.png"},
-                    {label: "Salon & Spa Pro", url: "./images/skills/NAB_PROFESSIONAL.png"},
-                    {label: "Styling", url: "./images/skills/STYLING.png"},
-                    {label: "Manicure", url: "./images/skills/MANICURE.png"},
-                    {label: "Pedicure", url: "./images/skills/PEDICURE.png"},
-                    {label: "Customer WOW", url: "./images/skills/NAB_WOW.png"},
-                    {label: "Complete Retail Experience", url: "./images/skills/NAB_RETAIL.png"
+                    label: "Color", url: "./images/skills/color.png"},
+                    {label: "Cut", url: "./images/skills/cut.png"},
+                    {label: "Facial", url: "./images/skills/facial.png"},
+                    {label: "Build Your Business", url: "./images/skills/nab_business.png"},
+                    {label: "Embracing Change", url: "./images/skills/nab_change.png"},
+                    {label: "Salon & Spa Pro", url: "./images/skills/nab_professional.png"},
+                    {label: "Styling", url: "./images/skills/styling.png"},
+                    {label: "Manicure", url: "./images/skills/manicure.png"},
+                    {label: "Pedicure", url: "./images/skills/pedicure.png"},
+                    {label: "Customer WOW", url: "./images/skills/nab_wow.png"},
+                    {label: "Complete Retail Experience", url: "./images/skills/nab_retail.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             Certifications: {
                 images: [{
-                     label: "Cosmetology License", url: "./images/certifications/COSMO.png"},
-                    {label: "Sassoon ABC Cutting", url: "./images/certifications/ABC_CUT.png"},
-                    {label: "NAB", url: "./images/certifications/NAB.png"},
-                    {label: "SASSOON ABC COLOR", url: "./images/certifications/ABC_COLOR.png"
+                     label: "Cosmetology License", url: "./images/certifications/cosmo.png"},
+                    {label: "Sassoon ABC Cutting", url: "./images/certifications/abc_cut.png"},
+                    {label: "NAB", url: "./images/certifications/nab.png"},
+                    {label: "SASSOON ABC COLOR", url: "./images/certifications/abc_color.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             }
@@ -160,17 +160,17 @@ angular.module('assessmentEvaluationApp')
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Green Technology", url: "./images/skills/GREEN.png"},
-                    {label: "Troubleshoot Common HVAC Systems", url: "./images/skills/TROUBLESHOOTING_HVAC.png"},
-                    {label: "Read Construction Drawings", url: "./images/skills/READ_CONST_DRAWINGS.png"},
+                    label: "Green Technology", url: "./images/skills/green.png"},
+                    {label: "Troubleshoot Common HVAC Systems", url: "./images/skills/troubleshooting_hvac.png"},
+                    {label: "Read Construction Drawings", url: "./images/skills/read_const_drawings.png"},
                     {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
@@ -178,14 +178,14 @@ angular.module('assessmentEvaluationApp')
 
             Certifications: {
                 images: [{
-                    label: "EPA", url: "./images/certifications/EPA.png"},
-                    {label: "Green", url: "./images/certifications/GREEN.png"},
-                    {label: "Indoor Air Quality", url: "./images/certifications/INDOOR_AIR_QUALITY.png"},
-                    {label: "TDLR ACR", url: "./images/certifications/TDLR_ACR.png"},
-                    {label: "HVAC", url: "./images/certifications/HVAC.png"},
-                    {label: "R410A", url: "./images/certifications/R410A.png"},
-                    {label: "Nate", url: "./images/certifications/NATE.png"},
-                    {label: "Preventative Maintenance", url: "./images/certifications/PREV_MAINTENANCE.png"
+                    label: "EPA", url: "./images/certifications/epa.png"},
+                    {label: "Green", url: "./images/certifications/green.png"},
+                    {label: "Indoor Air Quality", url: "./images/certifications/indoor_air_quality.png"},
+                    {label: "TDLR ACR", url: "./images/certifications/tdlr_acr.png"},
+                    {label: "HVAC", url: "./images/certifications/hvac.png"},
+                    {label: "R410A", url: "./images/certifications/r410a.png"},
+                    {label: "Nate", url: "./images/certifications/nate.png"},
+                    {label: "Preventative Maintenance", url: "./images/certifications/prev_maintenance.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             }
@@ -203,8 +203,8 @@ angular.module('assessmentEvaluationApp')
 
             SIV: {
                 images: [{
-                    label: "Teamwork", url: "./images/values/GROUP.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Teamwork", url: "./images/values/group.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire to assist and care for others, interact with customers, prioritize work, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Medical Assistant training program!"
             },
@@ -216,8 +216,8 @@ angular.module('assessmentEvaluationApp')
                     {label: "Customer Service", url: "./images/skills/customer_service.png"},
                     {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
                     {label: "communication", url: "./images/skills/communication.png"},
-                    {label: "Clinical Skills", url: "./images/skills/CLINICAL_SKILLS.png"},
-                    {label: "Pharmacology", url: "./images/skills/PHARMACOLOGY.png"},
+                    {label: "Clinical Skills", url: "./images/skills/clinical_skills.png"},
+                    {label: "Pharmacology", url: "./images/skills/pharmacology.png"},
                     {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
                     {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
                     {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
@@ -256,38 +256,38 @@ angular.module('assessmentEvaluationApp')
             SIV: {
                 images: [{
                     label: "Work Alone", url: "./images/values/alone.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire to for accuracy of task completion, interact with customers/business, evaluating information, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Medical Assistant training program!"
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Anatomy", url: "./images/skills/ANATOMY.png"},
+                    label: "Anatomy", url: "./images/skills/anatomy.png"},
                     {label: "MS Word", url: "./images/skills/ms_word.png"},
                     {label: "Customer Service", url: "./images/skills/customer_service.png"},
                     {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
                     {label: "professionalism", url: "./images/skills/professionalism.png"},
                     {label: "communication", url: "./images/skills/communication.png"},
-                    {label: "HIPAA", url: "./images/skills/HIPAA.png"},
-                    {label: "Charting", url: "./images/skills/CHARTING.png"},
-                    {label: "ICD 9", url: "./images/skills/ICD9.png"},
-                    {label: "ICD 10", url: "./images/skills/ICD10.png"},
+                    {label: "HIPAA", url: "./images/skills/hipaa.png"},
+                    {label: "Charting", url: "./images/skills/charting.png"},
+                    {label: "ICD 9", url: "./images/skills/icd9.png"},
+                    {label: "ICD 10", url: "./images/skills/icd10.png"},
                     {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
                     {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
-                    {label: "CPT", url: "./images/skills/CPT.png"},
+                    {label: "CPT", url: "./images/skills/cpt.png"},
                     {label: "10 Key", url: "./images/skills/10key.png"},
                     {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
-                    {label: "Reading", url: "./images/skills/READING.png"
+                    {label: "Reading", url: "./images/skills/reading.png"
                 }],
                 description: "In the Medical Assistant training program, you’ll have the opportunity to earn 15 skill badges that signal your expertise to employers.  Skills like ICD 9 and 10, Electronic Health Records, HIPPA, and customer services are some of the most sought after from our employer network!"
             },
 
             Certifications: {
                 images: [{
-                    label: "CBCS", url: "./images/certifications/CBCS.png"},
-                    {label: "CMAA", url: "./images/certifications/CMAA.png"},
-                    {label: "EHRS", url: "./images/certifications/EHRS.png"},
+                    label: "CBCS", url: "./images/certifications/cbcs.png"},
+                    {label: "CMAA", url: "./images/certifications/cmaa.png"},
+                    {label: "EHRS", url: "./images/certifications/ehrs.png"},
                     {label: "Microsoft Word", url: "./images/certifications/ms_word.png"
                 }],
                 description: "The Medical Billing and Coding field does not require certifications; our program makes you eligible for 4 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
@@ -326,18 +326,18 @@ angular.module('assessmentEvaluationApp')
                     {label: "communication", url: "./images/skills/communication.png"},
                     {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
                     {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
-                    {label: "HIPAA", url: "./images/skills/HIPAA.png"
+                    {label: "HIPAA", url: "./images/skills/hipaa.png"
                 }],
                 description: "In the Medical Office Specialist training program, you’ll have the opportunity to earn 13 skill badges that signal your expertise to employers.  Skills like communication, Executive Support, Microsoft, and scheduling and planning are some of the most sought after from our employer network!"
             },
 
             Certifications: {
                 images: [{
-                    label: "CMAA", url: "./images/certifications/MAA.png"},
-                    {label: "MS Word", url: "./images/certifications/WORD.png"},
-                    {label: "MS Power Point", url: "./images/certifications/POWERPOINT.png"},
-                    {label: "EHRS", url: "./images/certifications/EHRS.png"},
-                    {label: "MS Excel", url: "./images/certifications/EXCEL.png"
+                    label: "CMAA", url: "./images/certifications/maa.png"},
+                    {label: "MS Word", url: "./images/certifications/word.png"},
+                    {label: "MS Power Point", url: "./images/certifications/powerpoint.png"},
+                    {label: "EHRS", url: "./images/certifications/ehrs.png"},
+                    {label: "MS Excel", url: "./images/certifications/excel.png"
                 }],
                 description: "The Medical Office Specialist field does not require certifications, but our program makes you eligible for 5 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
@@ -355,22 +355,22 @@ angular.module('assessmentEvaluationApp')
 
             SIV: {
                 images: [{
-                    label: "Teamwork", url: "./images/values/GROUP.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Teamwork", url: "./images/values/group.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire to for accuracy of task completion, interact with customers/businesses, evaluating information, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Medical Assistant training program!"
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Anatomy", url: "./images/skills/ANATOMY.png"},
+                    label: "Anatomy", url: "./images/skills/anatomy.png"},
                     {label: "MS Word", url: "./images/skills/ms_word.png"},
                     {label: "Customer Service", url: "./images/skills/customer_service.png"},
                     {label: "communication", url: "./images/skills/communication.png"},
                     {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
                     {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
                     {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
-                    {label: "Basic Compounding", url: "./images/skills/BASIC_COMPOUNDING.png"},
+                    {label: "Basic Compounding", url: "./images/skills/basic_compounding.png"},
                     {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "In the Pharmacy Technician training program, you’ll have the opportunity to earn 9 skill badges that signal your expertise to employers.  Skills like basic compounding, diseases of the body, and customer services are some of the most sought after from our employer network!"
@@ -378,11 +378,11 @@ angular.module('assessmentEvaluationApp')
 
             Certifications: {
                 images: [{
-                    label: "PTCE", url: "./images/certifications/PTCE.png"},
-                    {label: "WORD", url: "./images/certifications/WORD.png"},
-                    {label: "MS Power Point", url: "./images/certifications/POWERPOINT.png"},
-                    {label: "EHRS", url: "./images/certifications/EHRS.png"},
-                    {label: "MS Excel", url: "./images/certifications/EXCEL.png"
+                    label: "PTCE", url: "./images/certifications/ptce.png"},
+                    {label: "WORD", url: "./images/certifications/word.png"},
+                    {label: "MS Power Point", url: "./images/certifications/powerpoint.png"},
+                    {label: "EHRS", url: "./images/certifications/ehrs.png"},
+                    {label: "MS Excel", url: "./images/certifications/excel.png"
                 }],
                 description: "The Pharmacy Technician field does require certifications; our program makes you eligible for 2 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
@@ -400,15 +400,15 @@ angular.module('assessmentEvaluationApp')
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Anatomy", url: "./images/skills/ANATOMY.png"},
+                    label: "Anatomy", url: "./images/skills/anatomy.png"},
                     {label: "MS Word", url: "./images/skills/ms_word.png"},
                     {label: "MS Excel", url: "./images/skills/ms_excel.png"},
                     {label: "MS Power Point", url: "./images/skills/ms_powerpoint.png"},
@@ -427,8 +427,8 @@ angular.module('assessmentEvaluationApp')
 
             Certifications: {
                 images: [{
-                    label: "NCCER", url: "./images/certifications/NCCER.png"},
-                    {label: "American Welding Society", url: "./images/certifications/AWS.png"
+                    label: "NCCER", url: "./images/certifications/nccer.png"},
+                    {label: "American Welding Society", url: "./images/certifications/aws.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             }
@@ -446,8 +446,8 @@ angular.module('assessmentEvaluationApp')
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -455,24 +455,24 @@ angular.module('assessmentEvaluationApp')
             Skills_Badges: {
                 images: [{
                     label: "Customer Service", url: "./images/skills/customer_service.png"},
-                    {label: "Listening", url: "./images/skills/LISTENING.png"},
-                    {label: "Problem Solving", url: "./images/skills/PROBLEM_SOLVING.png"},
-                    {label: "Public Speaking", url: "./images/skills/PUBLIC_SPEAKING.png"},
-                    {label: "Writing", url: "./images/skills/WRITING.png"
+                    {label: "Listening", url: "./images/skills/listening.png"},
+                    {label: "Problem Solving", url: "./images/skills/problem_solving.png"},
+                    {label: "Public Speaking", url: "./images/skills/public_speaking.png"},
+                    {label: "Writing", url: "./images/skills/writing.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
 
             Certifications: {
                 images: [{
-                    label: "IC3 Digital Literacy Cert.", url: "./images/certifications/IC3_Digital_Literacy.png"},
-                    {label: "CompTIA A+", url: "./images/certifications/CompTIA_A+.png"},
-                    {label: "NETSIM PC PRO", url: "./images/certifications/Test_Out_Network_Pro.png"},
-                    {label: "Windows Client and Server Admin", url: "./images/certifications/MS_Windows.png"},
-                    {label: "CompTIA Network+N10-005", url: "./images/certifications/CompTIA_Network+.png"},
-                    {label: "Test Out Network Pro", url: "./images/certifications/Test_Out_Network_Pro.png"},
-                    {label: "CompTIA Security +", url: "./images/certifications/CompTIA_Security+.png"},
-                    {label: "MS Excel", url: "./images/certifications/EXCEL.png"
+                    label: "IC3 Digital Literacy Cert.", url: "./images/certifications/ic3_digital_literacy.png"},
+                    {label: "CompTIA A+", url: "./images/certifications/comptia_a+.png"},
+                    {label: "NETSIM PC PRO", url: "./images/certifications/test_out_network_pro.png"},
+                    {label: "Windows Client and Server Admin", url: "./images/certifications/ms_windows.png"},
+                    {label: "CompTIA Network+N10-005", url: "./images/certifications/comptia_network+.png"},
+                    {label: "Test Out Network Pro", url: "./images/certifications/test_out_network_pro.png"},
+                    {label: "CompTIA Security +", url: "./images/certifications/comptia_security+.png"},
+                    {label: "MS Excel", url: "./images/certifications/excel.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             }
