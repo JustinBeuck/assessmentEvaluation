@@ -341,7 +341,7 @@ angular.module('assessmentEvaluationApp')
             switch (questionId) {
                 case 1:
                     console.log("question 1");
-                    console.log($scope.questions[questionId - 1].choices[0].value)
+                    console.log($scope.questions[questionId - 1].choices[0]);
                     if ($scope.questions[questionId - 1].choices[0].value) {
                         console.log("Administrative Assistant");
                         $scope.AA.push(30);
