@@ -257,7 +257,7 @@ button.center {
 
 div.logo {
   height: 140px;
-   background-image:url(../img/sciLOGO.jpg);
+   background-image:url(../img/scilogo.jpg);
    background-repeat: no-repeat;
    background-color: white;
 }
@@ -269,7 +269,7 @@ div.bottomLogo {
   text-align:center;
   z-index:9999;
   background-position: center center;
-  background-image:url(../img/sciLOGO.jpg);
+  background-image:url(../img/scilogo.jpg);
   background-repeat: no-repeat;
   margin-bottom: 25px;
   float: left;

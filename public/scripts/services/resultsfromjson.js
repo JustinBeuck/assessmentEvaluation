@@ -8,35 +8,35 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [
-                    {label: "Growth", url: "./images/outlook/GROWTH.png"
+                    {label: "Growth", url: "./images/outlook/growth.png"
                 }],
                 description: "Employment of administrative assistants is projected to grow 12 percent over the next 10 years. Administrative assistants perform routine clerical and administrative duties. They organize files, draft messages, schedule appointments, and support other staff.  http://www.bls.gov/data/"
             },
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire for accuracy of task completion, work in a group or team environment,  deal with customers or clients,  and your goal around where you’d like to work make you a perfect fit for the Administrative Assistant training program!"
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Accounting Principles", url: "./images/skills/ACCOUNTING_PRINCIPLES.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "MS Excel", url: "./images/skills/MS_EXCEL.png"},
-                    {label: "PowerPoint", url: "./images/skills/MS_POWERPOINT.png"},
-                    {label: "MS Office", url: "./images/skills/MS_OFFICE.png"},
-                    {label: "10 Key", url: "./images/skills/10KEY.png"},
-                    {label: "Words Per Minute", url: "./images/skills/WORDS_PER_MINUTE.png"},
-                    {label: "Scheduling & Planning", url: "./images/skills/SCHEDULING_&_PLANNING.png"},
-                    {label: "Executive Support", url: "./images/skills/EXECUTIVE_SUPPORT.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"
+                    label: "Accounting Principles", url: "./images/skills/accounting_principles.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "MS Excel", url: "./images/skills/ms_excel.png"},
+                    {label: "PowerPoint", url: "./images/skills/ms_powerpoint.png"},
+                    {label: "MS Office", url: "./images/skills/ms_office.png"},
+                    {label: "10 Key", url: "./images/skills/10key.png"},
+                    {label: "Words Per Minute", url: "./images/skills/words_per_minute.png"},
+                    {label: "Scheduling & Planning", url: "./images/skills/scheduling_&_planning.png"},
+                    {label: "Executive Support", url: "./images/skills/executive_support.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
-                description: "In the Administrative Assistant in training program, you’ll have the opportunity to earn 12 skill badges that signal your expertise to employers.  Skills like Communication, Executive Support, Microsoft, and scheduling and planning are some of the most sought after from our employer network!"
+                description: "In the Administrative Assistant in training program, you’ll have the opportunity to earn 12 skill badges that signal your expertise to employers.  Skills like communication, Executive Support, Microsoft, and scheduling and planning are some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -55,37 +55,37 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "As the number of organizations increases and financial regulations become stricter, there will be greater demand for these workers to maintain books and provide accounting services with a projected 10 year growth rate of 11 percent.  http://www.bls.gov/data/"
             },
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Work Alone", url: "./images/values/alone.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire to for accuracy of task completion, have freedom of decisions with structure, dealing with customers/clients, and your goal around where you’d like to work make you a perfect fit for the Business Accounting Specialist training program!"
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Accounting Principles", url: "./images/skills/ACCOUNTING_PRINCIPLES.png"},
+                    label: "Accounting Principles", url: "./images/skills/accounting_principles.png"},
                     {label: "Payables & Receivables", url: "./images/skills/PAYABLES&RECEIVABLES.png"},
                     {label: "Inventory", url: "./images/skills/INVENTORY.png"},
                     {label: "Financial Analysis", url: "./images/skills/FINANCIAL_ANALYSIS.png"},
                     {label: "Payroll", url: "./images/skills/PAYROLL.png"},
                     {label: "Taxes", url: "./images/skills/TAXES.png"},
                     {label: "QuickBooks", url: "./images/skills/QUICKBOOKS.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
                     {label: "Business Processes", url: "./images/skills/BUSINESS_PROCESS.png"},
-                    {label: "Microsoft Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "Microsoft Excel", url: "./images/skills/MS_EXCEL.png"},
-                    {label: "MS PowerPoint", url: "./images/skills/MS_POWERPOINT.png"},
-                    {label: "Words Per Minute", url: "./images/skills/WORDS_PER_MINUTE.png"},
-                    {label: "10 KEY", url: "./images/skills/10KEY.png"},
-                    {label: "Scheduling & Planning", url: "./images/skills/SCHEDULING_&_PLANNING.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"
+                    {label: "Microsoft Word", url: "./images/skills/ms_word.png"},
+                    {label: "Microsoft Excel", url: "./images/skills/ms_excel.png"},
+                    {label: "MS PowerPoint", url: "./images/skills/ms_powerpoint.png"},
+                    {label: "Words Per Minute", url: "./images/skills/words_per_minute.png"},
+                    {label: "10 KEY", url: "./images/skills/10key.png"},
+                    {label: "Scheduling & Planning", url: "./images/skills/scheduling_&_planning.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "As  an Accounting Specialist in training, you’ll have the opportunity to earn over 17 skill badges that signal your expertise to employers.  Skills like Payroll, Taxes, Inventory, QuickBooks are Business processes are some of the most sought after from our employer network!"
             },
@@ -153,7 +153,7 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -171,7 +171,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Green Technology", url: "./images/skills/GREEN.png"},
                     {label: "Troubleshoot Common HVAC Systems", url: "./images/skills/TROUBLESHOOTING_HVAC.png"},
                     {label: "Read Construction Drawings", url: "./images/skills/READ_CONST_DRAWINGS.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"
+                    {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -196,7 +196,7 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [
-                    {label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    {label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Employment of medical assistants is projected to grow 29 percent over the next 10 years, much faster than the average for all occupations. The growth of the aging baby-boom population will continue to spur demand for preventive medical services, which are often provided by physicians. As their practices expand, physicians will hire more assistants to perform routine administrative and clinical duties, allowing the physicians to see more patients. http://www.bls.gov/data/"
             },
@@ -211,33 +211,33 @@ angular.module('assessmentEvaluationApp')
 
             Skills_Badges: {
                 images: [{
-                    label: "Anatomy", url: "./images/skills/ANATOMY.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Electronic Records", url: "./images/skills/ELECTRONIC_HEALTH_RECORDS.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
+                    label: "Anatomy", url: "./images/skills/anatomy.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
                     {label: "Clinical Skills", url: "./images/skills/CLINICAL_SKILLS.png"},
                     {label: "Pharmacology", url: "./images/skills/PHARMACOLOGY.png"},
-                    {label: "Medical Terminology", url: "./images/skills/MEDICAL_TERMINOLOGY.png"},
-                    {label: "Diseases of the Body", url: "./images/skills/DISEASES_OF_THE_BODY.png"},
-                    {label: "Medical Law & Ethics", url: "./images/skills/MEDICAL_LAW_&_ETHICS.png"},
-                    {label: "Phlebotomy", url: "./images/skills/PHLEBOTOMY.png"},
-                    {label: "EKG", url: "./images/skills/EKG.png"},
-                    {label: "HIPAA", url: "./images/skills/HIPAA.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"
+                    {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
+                    {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
+                    {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
+                    {label: "Phlebotomy", url: "./images/skills/phlebotomy.png"},
+                    {label: "EKG", url: "./images/skills/ekg.png"},
+                    {label: "HIPAA", url: "./images/skills/hippa.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "In the Medical Assistant training program, you’ll have the opportunity to earn 14 skill badges that signal your expertise to employers.  Skills like EKG, Phlebotomy, Clinical management, and customer services are some of the most sought after from our employer network!"
             },
 
             Certifications: {
                 images: [{
-                    label: "RMA", url: "./images/certifications/RMA.png"},
-                    {label: "CMAA", url: "./images/certifications/MAA.png"},
-                    {label: "CET", url: "./images/certifications/CET.png"},
-                    {label: "EHRS", url: "./images/certifications/EHRS.png"},
-                    {label: "WORD", url: "./images/certifications/WORD.png"},
-                    {label: "CPR", url: "./images/certifications/CPR.png"},
-                    {label: "CPT", url: "./images/certifications/CPT.png"
+                    label: "RMA", url: "./images/certifications/rma.png"},
+                    {label: "CMAA", url: "./images/certifications/maa.png"},
+                    {label: "CET", url: "./images/certifications/cet.png"},
+                    {label: "EHRS", url: "./images/certifications/ehrs.png"},
+                    {label: "WORD", url: "./images/certifications/word.png"},
+                    {label: "CPR", url: "./images/certifications/cpr.png"},
+                    {label: "CPT", url: "./images/certifications/cpt.png"
                 }],
                 description: "The Medical Assistant field does not require certifications for smaller facilities, our program makes you eligible for 7 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
@@ -248,14 +248,14 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Employment of medical coding is projected to grow 22 percent over the next 10 years, much faster than the average for all occupations. The growth of the aging baby-boom population will continue to spur demand for preventive medical services, which are often provided by physicians. http://www.bls.gov/data/"
             },
 
             SIV: {
                 images: [{
-                    label: "Work Alone", url: "./images/values/ALONE.png"},
+                    label: "Work Alone", url: "./images/values/alone.png"},
                     {label: "Precision", url: "./images/values/PRECISION.png"
                 }],
                 description: "Your innate desire to for accuracy of task completion, interact with customers/business, evaluating information, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Medical Assistant training program!"
@@ -264,20 +264,20 @@ angular.module('assessmentEvaluationApp')
             Skills_Badges: {
                 images: [{
                     label: "Anatomy", url: "./images/skills/ANATOMY.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Electronic Records", url: "./images/skills/ELECTRONIC_HEALTH_RECORDS.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
                     {label: "HIPAA", url: "./images/skills/HIPAA.png"},
                     {label: "Charting", url: "./images/skills/CHARTING.png"},
                     {label: "ICD 9", url: "./images/skills/ICD9.png"},
                     {label: "ICD 10", url: "./images/skills/ICD10.png"},
-                    {label: "Medical Terminology", url: "./images/skills/MEDICAL_TERMINOLOGY.png"},
-                    {label: "Diseases of the Body", url: "./images/skills/DISEASES_OF_THE_BODY.png"},
+                    {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
+                    {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
                     {label: "CPT", url: "./images/skills/CPT.png"},
-                    {label: "10 Key", url: "./images/skills/10KEY.png"},
-                    {label: "Medical Law & Ethics", url: "./images/skills/MEDICAL_LAW_&_ETHICS.png"},
+                    {label: "10 Key", url: "./images/skills/10key.png"},
+                    {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
                     {label: "Reading", url: "./images/skills/READING.png"
                 }],
                 description: "In the Medical Assistant training program, you’ll have the opportunity to earn 15 skill badges that signal your expertise to employers.  Skills like ICD 9 and 10, Electronic Health Records, HIPPA, and customer services are some of the most sought after from our employer network!"
@@ -288,7 +288,7 @@ angular.module('assessmentEvaluationApp')
                     label: "CBCS", url: "./images/certifications/CBCS.png"},
                     {label: "CMAA", url: "./images/certifications/CMAA.png"},
                     {label: "EHRS", url: "./images/certifications/EHRS.png"},
-                    {label: "Microsoft Word", url: "./images/certifications/MS_WORD.png"
+                    {label: "Microsoft Word", url: "./images/certifications/ms_word.png"
                 }],
                 description: "The Medical Billing and Coding field does not require certifications; our program makes you eligible for 4 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
@@ -299,36 +299,36 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "Growth", url: "./images/outlook/GROWTH.png"
+                    label: "Growth", url: "./images/outlook/growth.png"
                 }],
                 description: "Employment of medical office specialists is projected to grow 12 percent over the next 10 years. Medical specialists manage the hectic flow of patients. They organize patient flow, files, draft messages, schedule appointments, and support other staff.  http://www.bls.gov/data/"
             },
 
             SIV: {
                 images: [{
-                    label: "Teamwork", url: "./images/values/GROUP.png"},
-                    {label: "Precision", url: "./images/values/PRECISION.png"
+                    label: "Teamwork", url: "./images/values/group.png"},
+                    {label: "Precision", url: "./images/values/precision.png"
                 }],
                 description: "Your innate desire for accuracy of task completion, work in a group or team environment,  deal with customers or clients,  and your goal around where you’d like to work make you a perfect fit for the Medical Office Specialist training program!"
             },
 
             Skills_Badges: {
                 images: [{
-                    label: "Anatomy", url: "./images/skills/ANATOMY.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "MS Excel", url: "./images/skills/MS_EXCEL.png"},
-                    {label: "MS Power Point", url: "./images/skills/MS_POWERPOINT.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Electronic Records", url: "./images/skills/ELECTRONIC_HEALTH_RECORDS.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"},
-                    {label: "WPM", url: "./images/skills/WORDS_PER_MINUTE.png"},
-                    {label: "10 Key", url: "./images/skills/10KEY.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
-                    {label: "Medical Terminology", url: "./images/skills/MEDICAL_TERMINOLOGY.png"},
-                    {label: "Medical Law & Ethics", url: "./images/skills/MEDICAL_LAW_&_ETHICS.png"},
+                    label: "Anatomy", url: "./images/skills/anatomy.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "MS Excel", url: "./images/skills/ms_excel.png"},
+                    {label: "MS Power Point", url: "./images/skills/ms_powerpoint.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"},
+                    {label: "WPM", url: "./images/skills/words_per_minute.png"},
+                    {label: "10 Key", url: "./images/skills/10key.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
+                    {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
+                    {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
                     {label: "HIPAA", url: "./images/skills/HIPAA.png"
                 }],
-                description: "In the Medical Office Specialist training program, you’ll have the opportunity to earn 13 skill badges that signal your expertise to employers.  Skills like Communication, Executive Support, Microsoft, and scheduling and planning are some of the most sought after from our employer network!"
+                description: "In the Medical Office Specialist training program, you’ll have the opportunity to earn 13 skill badges that signal your expertise to employers.  Skills like communication, Executive Support, Microsoft, and scheduling and planning are some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -348,7 +348,7 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Employment of Pharmacy Technicians is projected to grow 20 percent over the next 10 years, much faster than the average for all occupations. Several factors will lead to increased demand for prescription medications.   http://www.bls.gov/data/"
             },
@@ -364,14 +364,14 @@ angular.module('assessmentEvaluationApp')
             Skills_Badges: {
                 images: [{
                     label: "Anatomy", url: "./images/skills/ANATOMY.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
-                    {label: "Medical Terminology", url: "./images/skills/MEDICAL_TERMINOLOGY.png"},
-                    {label: "Diseases of the Body", url: "./images/skills/DISEASES_OF_THE_BODY.png"},
-                    {label: "Medical Law & Ethics", url: "./images/skills/MEDICAL_LAW_&_ETHICS.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
+                    {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
+                    {label: "Diseases of the Body", url: "./images/skills/diseases_of_the_body.png"},
+                    {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"},
                     {label: "Basic Compounding", url: "./images/skills/BASIC_COMPOUNDING.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"
+                    {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
                 description: "In the Pharmacy Technician training program, you’ll have the opportunity to earn 9 skill badges that signal your expertise to employers.  Skills like basic compounding, diseases of the body, and customer services are some of the most sought after from our employer network!"
             },
@@ -393,7 +393,7 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -409,18 +409,18 @@ angular.module('assessmentEvaluationApp')
             Skills_Badges: {
                 images: [{
                     label: "Anatomy", url: "./images/skills/ANATOMY.png"},
-                    {label: "MS Word", url: "./images/skills/MS_WORD.png"},
-                    {label: "MS Excel", url: "./images/skills/MS_EXCEL.png"},
-                    {label: "MS Power Point", url: "./images/skills/MS_POWERPOINT.png"},
-                    {label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
-                    {label: "Electronic Records", url: "./images/skills/ELECTRONIC_HEALTH_RECORDS.png"},
-                    {label: "WPM", url: "./images/skills/WORDS_PER_MINUTE.png"},
-                    {label: "10 Key", url: "./images/skills/10KEY.png"},
+                    {label: "MS Word", url: "./images/skills/ms_word.png"},
+                    {label: "MS Excel", url: "./images/skills/ms_excel.png"},
+                    {label: "MS Power Point", url: "./images/skills/ms_powerpoint.png"},
+                    {label: "Customer Service", url: "./images/skills/customer_service.png"},
+                    {label: "Electronic Records", url: "./images/skills/electronic_health_records.png"},
+                    {label: "WPM", url: "./images/skills/words_per_minute.png"},
+                    {label: "10 Key", url: "./images/skills/10key.png"},
                     {label: "HIPAA", url: "./images/skills/HIPAA.png"},
-                    {label: "Medical Terminology", url: "./images/skills/MEDICAL_TERMINOLOGY.png"},
-                    {label: "Communication", url: "./images/skills/COMMUNICATION.png"},
-                    {label: "Professionalism", url: "./images/skills/PROFESSIONALISM.png"},
-                    {label: "Medical Law & Ethics", url: "./images/skills/MEDICAL_LAW_&_ETHICS.png"
+                    {label: "Medical Terminology", url: "./images/skills/medical_terminology.png"},
+                    {label: "communication", url: "./images/skills/communication.png"},
+                    {label: "professionalism", url: "./images/skills/professionalism.png"},
+                    {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -439,7 +439,7 @@ angular.module('assessmentEvaluationApp')
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
-                    label: "High Growth", url: "./images/outlook/HIGHGROWTH.png"
+                    label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
                 description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
             },
@@ -454,7 +454,7 @@ angular.module('assessmentEvaluationApp')
 
             Skills_Badges: {
                 images: [{
-                    label: "Customer Service", url: "./images/skills/CUSTOMER_SERVICE.png"},
+                    label: "Customer Service", url: "./images/skills/customer_service.png"},
                     {label: "Listening", url: "./images/skills/LISTENING.png"},
                     {label: "Problem Solving", url: "./images/skills/PROBLEM_SOLVING.png"},
                     {label: "Public Speaking", url: "./images/skills/PUBLIC_SPEAKING.png"},
