@@ -38,40 +38,40 @@ angular.module('assessmentEvaluationApp')
                 value: false
             }, 
             {
-                choice: "Computer Support Specialist",
+                choice: "Cosmetologist",
                 id: 3,
                 value: false
             },
             {
-                choice: "Cosmetologist",
+                choice: "HVAC",
                 id: 4,
                 value: false
             },
             {
-                choice: "HVAC Technician",
+                choice: "Medical Assistant",
                 id: 5,
                 value: false
             },
             {
-                choice: "Medical Assistant",
+                choice: "Medical Biller / Coder",
                 id: 6,
                 value: false
             },
             {
-                choice: "Medical Biller / Coder",
+                choice: "Medical Office Specialist",
                 id: 7,
                 value: false
             },{
-                choice: "Medical Office Specialist",
+                choice: "Pharmacy Technician",
                 id: 8,
                 value: false
             },
             {
-                choice: "Pharmacy Technician",
+                choice: "Welder",
                 id: 9,
                 value: false
             },{
-                choice: "Welder",
+                choice: "Computer Support Specialist",
                 id: 10,
                 value: false
             }]
@@ -370,7 +370,7 @@ angular.module('assessmentEvaluationApp')
                     } 
                       else if ($scope.questions[questionId - 1].choices[2].value) {
                         console.log($scope.questions[questionId - 1].choices[2].value);
-                        console.log("Computer Support Specialist");
+                        console.log("Cosmetologist");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(30);
@@ -383,7 +383,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[3].value) {
                         console.log($scope.questions[questionId - 1].choices[3].value);
-                        console.log("Cosmetologist");
+                        console.log("HVAC");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -396,7 +396,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[4].value) {
                         console.log($scope.questions[questionId - 1].choices[4].value);
-                        console.log("HVAC Technician");
+                        console.log("Medical Assistant");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -409,7 +409,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[5].value) {
                         console.log($scope.questions[questionId - 1].choices[5].value);
-                        console.log("Medical Assistant");
+                        console.log("Medical Billing and Coding");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -422,7 +422,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[6].value) {
                         console.log($scope.questions[questionId - 1].choices[6].value);
-                        console.log("Medical Biller / Coder");
+                        console.log("Medical Office Specialist");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -435,7 +435,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[7].value) {
                         console.log($scope.questions[questionId - 1].choices[7].value);
-                        console.log("Medical Office Specialist");
+                        console.log("Pharmacy Technician");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -448,7 +448,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(0);
                     } else if ($scope.questions[questionId - 1].choices[8].value) {
                         console.log($scope.questions[questionId - 1].choices[8].value);
-                        console.log("Pharmacy Technician");
+                        console.log("Welding");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
@@ -460,7 +460,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.WE.push(30);
                         $scope.CSS.push(0);
                     } else {
-                        console.log("Welder");
+                        console.log("Computer Support Specialist");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
                         $scope.CO.push(0);
