@@ -103,13 +103,13 @@ angular.module('assessmentEvaluationApp')
 
         }, {
             program: "Cosmetology",
-            tagline: "Join the high growth CO field and help others",
+            tagline: "“Hairdressers are a wonderful breed. You work one-on-one with another human being and the object is to make them feel so much better and to look at themselves with a twinkle in their eye.”  Vidal Sassoon",
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
                     label: "Growth", url: "./images/outlook/growth.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Employment of barbers, hairdressers, and cosmetologists is projected to grow 13 percent from 2012 to 2022.  http://www.bls.gov/data/"
             },
 
             SIV: {
@@ -117,7 +117,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Work Alone", url: "./images/values/alone.png"},
                     {label: "Precision", url: "./images/values/precision.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Your innate desire to express your creativity with the elements of cosmetology, have freedom of decisions with structure, dealing with customers/clients, and your goal to be the best in the business make you a perfect fit for our Cosmetology Operator Program!"
             },
 
             Skills_Badges: {
@@ -134,7 +134,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "Customer WOW", url: "./images/skills/nab_wow.png"},
                     {label: "Complete Retail Experience", url: "./images/skills/nab_retail.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "As  an Cosmetology operator in training, you’ll have the opportunity to earn over 15 skill badges that signal your expertise to employers.  Skills like Sassoon Haircutting, Sassoon, Hair Coloring, Manicuring, esthetics, and the industry salon business program of “Nuts and Bolts” are skills some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -144,18 +144,18 @@ angular.module('assessmentEvaluationApp')
                     {label: "NAB", url: "./images/certifications/nab.png"},
                     {label: "SASSOON ABC COLOR", url: "./images/certifications/abc_color.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "The Cosmetology field requires licensure with TDLR to operate as a Cosmetologist and our program prepares you for that license.  In addition, our educational partnership with the Sassoon Academy makes you eligible for 3 certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
 
         }, {
             program: "HVAC",
-            tagline: "Join the high growth HVAC field and help others",
+            tagline: "“HVAC work is one of a few areas where demand has not appreciably cooled with the economic crisis. Nationwide there still is a huge demand for competent, qualified technicians.”  Glen Hourahan, vice president of research and technology at Air Conditioning Contractors of America in Arlington, Va ",
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
                     label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Employment of heating, air conditioning, and refrigeration mechanics and installers is projected to grow 21 percent from 2012 to 2022, faster than the average for all occupations. Candidates familiar with computers and electronics and those with good troubleshooting skills will have the best job opportunities as employers continue to have difficulty finding qualified technicians to work on complex new systems.  www.bls.gov"
             },
 
             SIV: {
@@ -163,7 +163,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Work Alone", url: "./images/values/alone.png"},
                     {label: "Precision", url: "./images/values/precision.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "If you desire to problem solve and troubleshoot mechanical issues, work with your hands, value integrity, be respected by your peers, and have goals of either being an entrepreneur or working with a team of like-minded professionals, you make you a perfect fit for the HVAC Technician training program!"
             },
 
             Skills_Badges: {
@@ -173,7 +173,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "Read Construction Drawings", url: "./images/skills/read_const_drawings.png"},
                     {label: "professionalism", url: "./images/skills/professionalism.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "In the HVAC Technician training program, you’ll have the opportunity to earn many skill badges that signal your expertise to employers.  Skills like basic Troubleshooting Common HVAC Systems, Green Technology, professionalism, and reading construction drawings are some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -187,7 +187,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "Nate", url: "./images/certifications/nate.png"},
                     {label: "Preventative Maintenance", url: "./images/certifications/prev_maintenance.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "The HVAC field does require certifications; our program makes you eligible for 8 state and national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!",
             }
 
         }, {
@@ -389,13 +389,13 @@ angular.module('assessmentEvaluationApp')
 
         }, {
             program: "Welding",
-            tagline: "Join the high growth Welding field and help others",
+            tagline: "“For a long time, parents didn’t want their son or daughter to become a pipe fitter or welder, but now, the demand for noncollege graduates with vocational skills is huge.” – Jim Hanna, a 33-year industry veteran who is now senior director of human resources at the Fluor Corporation. (Article in the New York Times 3.10.15)",
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
                     label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Through most of the 1980s, the number of welders nationwide topped 550,000. By 2013, there were just 343,000, according to the Bureau of Labor Statistics. Though the bureau projected that the number of welding jobs would rise 6 percent nationwide in coming years, the American Welding Society recently estimated at least a 10 percent jump over the next decade. In the energy belt, positions are already available."
             },
 
             SIV: {
@@ -403,7 +403,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Work Alone", url: "./images/values/alone.png"},
                     {label: "Precision", url: "./images/values/precision.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Your innate desire to for accuracy of task completion, interact with customers/businesses, evaluating information, using your hands to create solutions/lasting structures, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Medical Assistant training program!"
             },
 
             Skills_Badges: {
@@ -422,7 +422,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "professionalism", url: "./images/skills/professionalism.png"},
                     {label: "Medical Law & Ethics", url: "./images/skills/medical_law_&_ethics.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "In the welding training program, you’ll have the opportunity to earn many skill badges that signal your expertise to employers.  Skills like basic arc welding, safety, Oxy Fuel Cutting, groove welds, and prints & standards are some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -430,18 +430,18 @@ angular.module('assessmentEvaluationApp')
                     label: "NCCER", url: "./images/certifications/nccer.png"},
                     {label: "American Welding Society", url: "./images/certifications/aws.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "The welding field does not require certifications; our program makes you eligible for 2 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
 
         }, {
             program: "Computer Support Specialist",
-            tagline: "Join the high growth CSS field and help others",
+            tagline: "“This probably goes without saying, but technical skills are an absolute must to compete in the job market for this {Computer Support} occupation.” – US News & World Report -- MONEY",
             background: "http://thumbs.dreamstime.com/z/grunge-rustic-wood-wall-background-vintage-high-details-hd-quality-39668749.jpg",
             Outlook: {
                 images: [{
                     label: "High Growth", url: "./images/outlook/highgrowth.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "the Bureau of Labor Statistics projects 17 percent employment growth for computer support specialists between 2012 and 2022, which is faster than the average of all occupations. The BLS projects that 123,000 new jobs will be created during this period in an industry that already boasts approximately 722,400 professionals.   http://money.usnews.com/careers/best-jobs/computer-support-specialist"
             },
 
             SIV: {
@@ -449,7 +449,7 @@ angular.module('assessmentEvaluationApp')
                     label: "Work Alone", url: "./images/values/alone.png"},
                     {label: "Precision", url: "./images/values/precision.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "Your innate desire to help and advise people and organizations with computers and computer software, interact with customers/businesses, evaluating information, work in a group or team environment,  and your goal around where you’d like to work make you a perfect fit for the Computer Support Specialist Program!"
             },
 
             Skills_Badges: {
@@ -460,7 +460,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "Public Speaking", url: "./images/skills/public_speaking.png"},
                     {label: "Writing", url: "./images/skills/writing.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "In the Computer Support Specialist training program, you’ll have the opportunity to earn 5 skill badges that signal your expertise to employers.  Skills like Customer Service, diseases of the body, and customer services are some of the most sought after from our employer network!"
             },
 
             Certifications: {
@@ -474,7 +474,7 @@ angular.module('assessmentEvaluationApp')
                     {label: "CompTIA Security +", url: "./images/certifications/comptia_security+.png"},
                     {label: "MS Excel", url: "./images/certifications/excel.png"
                 }],
-                description: "Biodiesel blog yr selvage. Trust fund actually Brooklyn roof party church-key, messenger bag meh polaroid authentic cardigan kitsch mixtape gastropub tattooed lomo."
+                description: "The Computer Support Specialist field does prefer certifications; our program makes you eligible for 14 national certifications, enhancing your competitive edge in the job market.  Show employers your career passion for business!"
             }
 
         }];
