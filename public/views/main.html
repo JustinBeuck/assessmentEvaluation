@@ -1,23 +1,27 @@
 <div class="mainBackground">
-    <button type="button" class="center btn-sky text-uppercase btn-lg" data-toggle="modal" data-target="#purchaseModal">Begin Placement Evaluation</button>
+    <button type="button" class="center btn-sky text-uppercase btn-lg" data-toggle="modal" data-target="#purchaseModal">Begin Career Evaluation</button>
 </div>
-
-    <div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="purchaseLabel">Begin Placement Evaluation</h4>
-                </div>
-                <div class="modal-body">
-                  <form name="myForm">
+<div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="purchaseLabel">Begin Career Evaluation</h4>
+            </div>
+            <div class="modal-body">
+                <form name="myForm">
                     <input class="name" type="text" name="firstName"ng-model="user.first" placeholder="Enter First Name">
                     <input class="name" type="text" name="lastName"ng-model="user.last" placeholder="Enter Last Name">
                     <div class="modal-footer">
-                    <input type="submit" value="Save" ng-click="update(user); nextView()" class="btn btn-sky text-uppercase btn-lg" data-dismiss="modal">
+                        <input type="submit" value="Save" ng-click="update(user); nextView()" class="btn btn-sky text-uppercase btn-lg" data-dismiss="modal">
                     </div>
-                    </form>
-                </div>
+                <div class="options" align="center">
+        <select ng-options="campus.name for campus in campuses" name="name" ng-model="user.campus" value="campus">
+            <option value=''>- Please Choose Campus -</option>
+        </select>
+    </div>
+                </form>
             </div>
         </div>
     </div>
+</div>

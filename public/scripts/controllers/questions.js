@@ -1,319 +1,377 @@
 angular.module('assessmentEvaluationApp')
     .controller('QuestionsCtrl', function($scope, $location, Results) {
-        $scope.AA = [];
-        $scope.BAS = [];
-        $scope.CO = [];
-        $scope.HVAC = [];
-        $scope.MA = [];
-        $scope.MBC = [];
-        $scope.MOS = [];
-        $scope.PT = [];
-        $scope.WE = [];
-        $scope.CSS = [];
+            $scope.AA = [];
+            $scope.BAS = [];
+            $scope.CO = [];
+            $scope.HVAC = [];
+            $scope.MA = [];
+            $scope.MBC = [];
+            $scope.MOS = [];
+            $scope.PT = [];
+            $scope.WE = [];
+            $scope.CSS = [];
 
-        var show = true;
+            var campusId = sessionStorage.getItem("CampusId");
 
-        $scope.off = function() {
-            show = false;
-        }
+            var show = true;
 
-        $scope.showButton = function() {
-            return show;
-        }
+            $scope.off = function() {
+                show = false;
+            }
 
-        var on = function() {
-            show = false;
-        }
+            $scope.showButton = function() {
+                return show;
+            }
 
-        $scope.questions = [{
-            id: 1,
-            question: "Which of the following careers most interests you?",
-            choices: [{
-                choice: "Administrative Assistant",
+            var on = function() {
+                show = false;
+            }
+
+            $scope.questions = [{
                 id: 1,
-                value: false
+                question: "Which of the following careers most interests you?",
+                choices: [{
+                    choice: "Administrative Assistant",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Business Accounting Specialist",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Cosmetologist",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "HVAC",
+                    id: 4,
+                    value: false
+                }, {
+                    choice: "Medical Assistant",
+                    id: 5,
+                    value: false
+                }, {
+                    choice: "Medical Biller and Coder",
+                    id: 6,
+                    value: false
+                }, {
+                    choice: "Medical Office Specialist",
+                    id: 7,
+                    value: false
+                }, {
+                    choice: "Pharmacy Technician",
+                    id: 8,
+                    value: false
+                }, {
+                    choice: "Welder",
+                    id: 9,
+                    value: false
+                }, {
+                    choice: "Computer Support Specialist",
+                    id: 10,
+                    value: false
+                }, {
+                    choice: "Not Sure",
+                    id: 11,
+                    value: false
+                }]
             }, {
-                choice: "Business Accounting Specialist",
                 id: 2,
-                value: false
-            }, 
-            {
-                choice: "Cosmetologist",
+                question: "Do you like your work to be more focused on...",
+                choices: [{
+                    choice: "Working with your hands",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Solving problems",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Having a standard routine",
+                    id: 3,
+                    value: false
+                }]
+            }, {
                 id: 3,
-                value: false
-            },
-            {
-                choice: "HVAC",
+                question: "Would you prefer to be recognized...",
+                choices: [{
+                    choice: "In public",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "In private",
+                    id: 2,
+                    value: false
+                }]
+            }, {
                 id: 4,
-                value: false
-            },
-            {
-                choice: "Medical Assistant",
+                question: "Which of the following is most important to you...",
+                choices: [{
+                    choice: "Making Money",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Spend more time with family",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Be happier at work",
+                    id: 3,
+                    value: false
+                }]
+            }, {
                 id: 5,
-                value: false
-            },
-            {
-                choice: "Medical Biller / Coder",
+                question: "What motivates you about work?",
+                choices: [{
+                    choice: "The idea of making money",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Work that allows you to help other people",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Work that allows you to manage yourself only",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "Personal sense of satisfaction",
+                    id: 4,
+                    value: false
+                }]
+            }, {
                 id: 6,
-                value: false
-            },
-            {
-                choice: "Medical Office Specialist",
+                question: "Are you making the kind of money you want to make?",
+                choices: [{
+                    choice: "Yes",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "No",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Money doesn't matter",
+                    id: 3,
+                    value: false
+                }]
+            }, {
                 id: 7,
-                value: false
-            },{
-                choice: "Pharmacy Technician",
+                question: "If given a choice, you like to work...",
+                choices: [{
+                    choice: "Alone",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "As a part of a team",
+                    id: 2,
+                    value: false
+                }]
+            }, {
                 id: 8,
-                value: false
-            },
-            {
-                choice: "Welder",
+                question: "In group projects, you prefer to...",
+                choices: [{
+                    choice: "Be the leader with all the associated risks that come with a leadership role",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Be a team member with the risk spread among the team membership",
+                    id: 2,
+                    value: false
+                }]
+            }, {
                 id: 9,
-                value: false
-            },{
-                choice: "Computer Support Specialist",
+                question: "Do you prefer...",
+                choices: [{
+                    choice: "Mastering a wide variety of work and tasks",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Mastering fewer tasks",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Mastering one task and staying with that task for a long time",
+                    id: 3,
+                    value: false
+                }]
+            }, {
                 id: 10,
-                value: false
+                question: "Do you like your work to be...",
+                choices: [{
+                    choice: "As perfect as you can get it no matter how long it takes",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Be done right, but it does not have to be absolutely perfect",
+                    id: 2,
+                    value: false
+                }]
+            }, {
+                id: 11,
+                question: "Which of the following do you feel is your greatest strength ?",
+                choices: [{
+                    choice: "Team player",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Hardwork",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Punctual",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "Creative",
+                    id: 4,
+                    value: false
+                }, {
+                    choice: "Dependable",
+                    id: 5,
+                    value: false
+                }]
+            }, {
+                id: 12,
+                question: "Which environment best suits you?",
+                choices: [{
+                    choice: "Sitting behind a desk",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "On the move",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "On your feet",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "Work from home",
+                    id: 4,
+                    value: false
+                }]
+            }, {
+                id: 13,
+                question: "Choose a specialty that most interests you",
+                choices: [{
+                    choice: "Business",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Medical",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Trades",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "Personal Care",
+                    id: 4,
+                    value: false
+                }, {
+                    choice: "Doesn't Matter",
+                    id: 5,
+                    value: false
+                }]
+            }, {
+                id: 14,
+                question: "Duties which you feel most comfortable performing you",
+                choices: [{
+                    choice: "Processing documents",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "On the phone",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Hands-On with people",
+                    id: 3,
+                    value: false
+                }, {
+                    choice: "Hands-On in a technical environment",
+                    id: 4,
+                    value: false
+                }]
+            }, {
+                id: 15,
+                question: "Would you prefer to service...",
+                choices: [{
+                    choice: "Consumers or customers",
+                    id: 1,
+                    value: false
+                }, {
+                    choice: "Business clients",
+                    id: 2,
+                    value: false
+                }, {
+                    choice: "Consumer and Business",
+                    id: 3,
+                    value: false
+                }]
             }]
-        }, {
-            id: 2,
-            question: "Do you like your work to be more focused on...",
-            choices: [{
-                choice: "Working with your hands",
-                id: 1,
-                value: false
-            }, {
-                choice: "Solving problems",
-                id: 2,
-                value: false
-            }, {
-                choice: "Having a standard routine",
-                id: 3,
-                value: false
-            }]
-        }, {
-            id: 3,
-            question: "Would you prefer to be recognized...",
-            choices: [{
-                choice: "In public",
-                id: 1,
-                value: false
-            }, {
-                choice: "In private",
-                id: 2,
-                value: false
-            }]
-        }, {
-            id: 4,
-            question: "Which of the following is most important to you...",
-            choices: [{
-                choice: "Making Money",
-                id: 1,
-                value: false
-            }, {
-                choice: "Spend more time with family",
-                id: 2,
-                value: false
-            }, {
-                choice: "Be happier at work",
-                id: 3,
-                value: false
-            }]
-        }, {
-            id: 5,
-            question: "What motivates you about work?",
-            choices: [{
-                choice: "The idea of making money",
-                id: 1,
-                value: false
-            }, {
-                choice: "Work that allows you to help other people",
-                id: 2,
-                value: false
-            }, {
-                choice: "Work that allows you to manage yourself only",
-                id: 3,
-                value: false
-            }, {
-                choice: "Personal sense of satisfaction",
-                id: 4,
-                value: false
-            }]
-        }, {
-            id: 6,
-            question: "Are you making the kind of money you want to make?",
-            choices: [{
-                choice: "Yes",
-                id: 1,
-                value: false
-            }, {
-                choice: "No",
-                id: 2,
-                value: false
-            }, {
-                choice: "Money doesn't matter",
-                id: 3,
-                value: false
-            }]
-        }, {
-            id: 7,
-            question: "If given a choice, you like to work...",
-            choices: [{
-                choice: "Alone",
-                id: 1,
-                value: false
-            }, {
-                choice: "As a part of a team",
-                id: 2,
-                value: false
-            }]
-        }, {
-            id: 8,
-            question: "In group projects, you prefer to...",
-            choices: [{
-                choice: "Be the leader with all the associated risks that come with a leadership role",
-                id: 1,
-                value: false
-            }, {
-                choice: "Be a team member with the risk spread among the team membership",
-                id: 2,
-                value: false
-            }]
-        }, {
-            id: 9,
-            question: "Do you prefer...",
-            choices: [{
-                choice: "Mastering a wide variety of work and tasks",
-                id: 1,
-                value: false
-            }, {
-                choice: "Mastering fewer tasks",
-                id: 2,
-                value: false
-            }, {
-                choice: "Mastering one task and staying with that task for a long time",
-                id: 3,
-                value: false
-            }]
-        }, {
-            id: 10,
-            question: "Do you like your work to be...",
-            choices: [{
-                choice: "As perfect as you can get it no matter how long it takes",
-                id: 1,
-                value: false
-            }, {
-                choice: "Be done right, but it does not have to be absolutely perfect",
-                id: 2,
-                value: false
-            }]
-        }, {
-            id: 11,
-            question: "Which of the following do you feel is your greatest strength ?",
-            choices: [{
-                choice: "Team player",
-                id: 1,
-                value: false
-            }, {
-                choice: "Hardwork",
-                id: 2,
-                value: false
-            }, {
-                choice: "Punctual",
-                id: 3,
-                value: false
-            }, {
-                choice: "Creative",
-                id: 4,
-                value: false
-            }, {
-                choice: "Dependable",
-                id: 5,
-                value: false
-            }]
-        }, {
-            id: 12,
-            question: "Which environment best suits you?",
-            choices: [{
-                choice: "Sitting behind a desk",
-                id: 1,
-                value: false
-            }, {
-                choice: "On the move",
-                id: 2,
-                value: false
-            }, {
-                choice: "On your feet",
-                id: 3,
-                value: false
-            }, {
-                choice: "Work from home",
-                id: 4,
-                value: false
-            }]
-        }, {
-            id: 13,
-            question: "Choose a specialty that most interests you",
-            choices: [{
-                choice: "Business",
-                id: 1,
-                value: false
-            }, {
-                choice: "Medical",
-                id: 2,
-                value: false
-            }, {
-                choice: "Trades",
-                id: 3,
-                value: false
-            }, {
-                choice: "Personal Care",
-                id: 4,
-                value: false
-            }, {
-                choice: "Doesn't Matter",
-                id: 5,
-                value: false
-            }]
-        }, {
-            id: 14,
-            question: "Duties which you feel most comfortable performing you",
-            choices: [{
-                choice: "Processing documents",
-                id: 1,
-                value: false
-            }, {
-                choice: "On the phone",
-                id: 2,
-                value: false
-            }, {
-                choice: "Hands-On with people",
-                id: 3,
-                value: false
-            }, {
-                choice: "Hands-On in a technical environment",
-                id: 4,
-                value: false
-            }]
-        },   {
-            id: 15,
-            question: "Would you prefer to service...",
-            choices: [{
-                choice: "Consumers or customers",
-                id: 1,
-                value: false
-            }, {
-                choice: "Business clients",
-                id: 2,
-                value: false
-            }, {
-                choice: "Consumer and Business",
-                id: 3,
-                value: false
-            }]
-        }]
 
-        $scope.question_index = 0;
+
+            $scope.question_index = 0;
+
+            $(document).ready(function() {
+                    setTimeout(function() {
+                            if ($scope.question_index == 0) {
+                                console.log(campusId);
+
+                                if (campusId == 1) {
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else if (campusId == 2) {
+                                    $("div").find("ul > li.choices.Pharamcy.Technician").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                } else if (campusId == 3) {
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else if (campusId == 4) {
+                                    $("div").find("ul > li.choices.Pharamcy.Technician").hide();
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else if (campusId == 5) {
+                                    $("div").find("ul > li.choices.Pharamcy.Technician").hide();
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else if (campusId == 6) {
+                                    $("div").find("ul > li.choices.Administrative.Assistant").hide();
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else if (campusId == 7) {
+                                    $("div").find("ul > li.choices.Administrative.Assistant").hide();
+                                    $("div").find("ul > li.choices.Cosmetology").hide();
+                                    $("div").find("ul > li.choices.Medical.Office.Specialist").hide();
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                } else {
+                                    $("div").find("ul > li.choices.Welding").hide();
+                                    $("div").find("ul > li.choices.HVAC").hide();
+                                    $("div").find("ul > li.choices.Computer.Support.Specialist").hide();
+                                }
+
+                            }
+                    }, 1000);
+            });
+
 
         $scope.next = function() {
             if ($scope.question_index >= $scope.questions.length - 1) {
@@ -367,8 +425,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.PT.push(0);
                         $scope.WE.push(0);
                         $scope.CSS.push(0);
-                    } 
-                      else if ($scope.questions[questionId - 1].choices[2].value) {
+                    } else if ($scope.questions[questionId - 1].choices[2].value) {
                         console.log($scope.questions[questionId - 1].choices[2].value);
                         console.log("Cosmetologist");
                         $scope.AA.push(0);
@@ -459,7 +516,8 @@ angular.module('assessmentEvaluationApp')
                         $scope.PT.push(0);
                         $scope.WE.push(30);
                         $scope.CSS.push(0);
-                    } else {
+                    } else if ($scope.questions[questionId - 1].choices[9].value) {
+                        console.log($scope.questions[questionId - 1].choices[9].value);
                         console.log("Computer Support Specialist");
                         $scope.AA.push(0);
                         $scope.BAS.push(0);
@@ -469,8 +527,20 @@ angular.module('assessmentEvaluationApp')
                         $scope.MBC.push(0);
                         $scope.MOS.push(0);
                         $scope.PT.push(0);
+                        $scope.WE.push(30);
+                        $scope.CSS.push(0);
+                    } else {
+                        console.log("not sure");
+                        $scope.AA.push(0);
+                        $scope.BAS.push(0);
+                        $scope.CO.push(0);
+                        $scope.HVAC.push(0);
+                        $scope.MA.push(0);
+                        $scope.MBC.push(0);
+                        $scope.MOS.push(0);
+                        $scope.PT.push(0);
                         $scope.WE.push(0);
-                        $scope.CSS.push(30);
+                        $scope.CSS.push(0);
                     }
                     break;
                 case 2:
@@ -1022,7 +1092,7 @@ angular.module('assessmentEvaluationApp')
                         $scope.CSS.push(9);
                     }
                     break;
-                    case 15:
+                case 15:
                     console.log("question 1");
                     console.log($scope.questions[questionId - 1].choices[0].value)
                     if ($scope.questions[questionId - 1].choices[0].value) {
@@ -1071,4 +1141,4 @@ angular.module('assessmentEvaluationApp')
         $scope.seeResults = function() {
             $location.path('/ResultsPage');
         }
-    });
+});

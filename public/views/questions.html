@@ -6,8 +6,8 @@
 		<div ng-if="question_index == $index">
 			<h3>{{question.question}}</h3>
 			<ul>
-				<li class="choices" ng-repeat="choice in question.choices">
-					<input style="margin-right: 10px" type="radio" name="answer" ng-model="choice.value" ng-value="true">{{choice.choice}}</input>
+				<li class="choices {{choice.choice}}" ng-repeat="choice in question.choices">
+					<input style="margin-right: 10px" type="radio" name="answer" class="{{choice.choice}}" ng-model="choice.value" ng-value="true">{{choice.choice}}</input>
 				</li>
 			</ul>
 		</div>
